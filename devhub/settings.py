@@ -4,7 +4,7 @@ from datetime import timedelta
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
@@ -14,11 +14,7 @@ SECRET_KEY = 'django-insecure-cx@pnf*&&5ko(7m&i^u*lb%n2c2&!v=b_uk8bt8q6x9@nhjmtn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD:devhub/settings.py
 ALLOWED_HOSTS = ['localhost']
-=======
-ALLOWED_HOSTS = ['*']
->>>>>>> 67a9fb87136a43ffd2844215a3675788e3df333d:devhub/settings/base.py
 
 
 # Application definition
