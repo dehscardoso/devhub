@@ -147,8 +147,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'contatodevhub@gmail.com'
-EMAIL_HOST_PASSWORD = 'fzjfovjojcisvoji'
+EMAIL_HOST_USER = 'endereço-email'
+EMAIL_HOST_PASSWORD = 'senha-email'
 
 
 # Static files (CSS, JavaScript, Images)
@@ -161,7 +161,7 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
