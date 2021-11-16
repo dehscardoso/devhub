@@ -445,7 +445,7 @@ img {
 }
 
 .singleProject__preview {
-  height: 50vh;
+  height: 30vh;
   object-fit: cover;
   object-position: top center;
   margin-bottom: 3rem;
@@ -510,7 +510,7 @@ img {
 /*========== Projects ==========*/
 
 .project__thumbnail {
-  height: 25rem;
+  height: 30rem;
   object-fit: cover;
   object-position: top center;
 }
@@ -659,7 +659,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
-  background: url(../images/pattern.jpg);
+  background: url(../images/pattern.png);
 }
 
 .auth > .card {
